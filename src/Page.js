@@ -26,7 +26,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faThreads } from "@fortawesome/free-brands-svg-icons";
 import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link, Element, animateScroll as scroll, scroller }  from 'react-scroll';
+import { Link }  from 'react-scroll';
 
 export default function Page() {
   const [showNavLinks, setShowNavLinks] = useState(false);
@@ -339,11 +339,6 @@ export default function Page() {
                <p className={Pg.prp}><b>•</b> Created with the problem statement provided by Google Hackathon ,IIT Patna. This is a To-Do list app for elderly people , they can maintain their daily activities and reminders for medicine timeings and hospital appointments and also to chat with their caretakers . This is only a frontend of the application in ReactJS.</p>
                <p className={Pg.prp}> <b>Project Type :</b> Team Project(Frontend Developer)</p>   
             </div>
-
-
-            {/* from herer */}
-
-
             <div data-aos="fade-right" data-aos-delay="200" className={Pg.mainc21}>
               <div className={Pg.im}>
                   <img src={Work7} alt="Netflix" className={Pg.w1}></img>
